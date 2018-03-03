@@ -1,0 +1,678 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#"
+     xml:base="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology">
+        <rdfs:comment>A podcast ontology that describes various podcasts based on their properties.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#has_number_of_hosts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#has_number_of_hosts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#is_categorized_as -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#is_categorized_as"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#is_from_country -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#is_from_country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#is_genre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#is_genre"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#AKillingOnTheCape -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#AKillingOnTheCape">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Accused -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Accused">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#AloneALoveStory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#AloneALoveStory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Ambushed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Ambushed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#AnotherRound -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#AnotherRound">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Arts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Arts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#AtlantaMonster -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#AtlantaMonster">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Australia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Australia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCountryOfOrigin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#BlackHands -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#BlackHands">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Business -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Business">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Canada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Canada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCountryOfOrigin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#CanadianTrueCrime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#CanadianTrueCrime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Casefuile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Casefuile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#ColdCaseFiles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#ColdCaseFiles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Comedy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Comedy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#DebtFreeIn30 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#DebtFreeIn30">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#DoneDisappeared -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#DoneDisappeared">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Doughboys -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Doughboys">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Education -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Education">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#England -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#England">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCountryOfOrigin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Faultlines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Faultlines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Fiction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Fiction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#NonFiction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Five -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Five">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#NumberOfHosts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Four -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Four">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#NumberOfHosts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#FreakonomicsRadio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#FreakonomicsRadio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Genre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Health">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#HeavensGate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#HeavensGate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#HowDidThisGetMade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#HowDidThisGetMade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#HowIBuiltThis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#HowIBuiltThis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#InTheDark -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#InTheDark">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#LastPodcastOnTheLeft -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#LastPodcastOnTheLeft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#ModernLove -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#ModernLove">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Music -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Music">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#MyFavoriteMurder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#MyFavoriteMurder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#is_genre"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#NonFiction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#NightTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#NightTime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#NonFiction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#NonFiction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#NumberOfHosts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#NumberOfHosts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#One -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#One">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#NumberOfHosts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCategory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCategory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCountryOfOrigin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCountryOfOrigin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#RedHanded -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#RedHanded">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Serial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Serial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Six -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Six">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#NumberOfHosts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#SomeoneKnowsSomething -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#SomeoneKnowsSomething">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Technology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#ThisAmericanLife -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#ThisAmericanLife">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Three -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Three">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#NumberOfHosts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Two -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Two">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#NumberOfHosts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#UnitedStates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#UnitedStates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCountryOfOrigin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#WaitWaitDontTellMe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#WaitWaitDontTellMe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#WelcomeToNightvale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#WelcomeToNightvale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Zealot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Zealot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#1995 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#1995">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#2DopeQueens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#2DopeQueens">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#74Seconds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#74Seconds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Games&amp;Hobbies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Games&amp;Hobbies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Government&amp;Organizations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Government&amp;Organizations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Kids&amp;Family -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Kids&amp;Family">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#News&amp;Politics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#News&amp;Politics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Religion&amp;Spirituality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Religion&amp;Spirituality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Science&amp;Medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Science&amp;Medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Society&amp;Culture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Society&amp;Culture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Sports&amp;Recreation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Sports&amp;Recreation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#TV&amp;Movies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#TV&amp;Movies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#PodcastCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#AKillingOnTheCape"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Accused"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#AloneALoveStory"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Ambushed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#AnotherRound"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#AtlantaMonster"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#BlackHands"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#CanadianTrueCrime"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Casefuile"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#ColdCaseFiles"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#DebtFreeIn30"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#DoneDisappeared"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Doughboys"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Faultlines"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#FreakonomicsRadio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#HeavensGate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#HowDidThisGetMade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#HowIBuiltThis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#InTheDark"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#LastPodcastOnTheLeft"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#ModernLove"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#MyFavoriteMurder"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#NightTime"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#RedHanded"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Serial"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#SomeoneKnowsSomething"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#ThisAmericanLife"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#WaitWaitDontTellMe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#WelcomeToNightvale"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Zealot"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#1995"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#2DopeQueens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#74Seconds"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Arts"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Business"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Comedy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Education"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Health"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Music"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Technology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Games&amp;Hobbies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Government&amp;Organizations"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Kids&amp;Family"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#News&amp;Politics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Religion&amp;Spirituality"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Science&amp;Medicine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Society&amp;Culture"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Sports&amp;Recreation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#TV&amp;Movies"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Australia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Canada"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#England"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#UnitedStates"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Five"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Four"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#One"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Six"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Three"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cassandwich/ontologies/2018/2/podcast-ontology#Two"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
